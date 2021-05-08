@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Auflösung {
 
     public static void main(String[] args){
-        System.out.println("Gib ma Raum und Computer (z.B. A106-15) Yallah ");
+        System.out.println("Bitte Raum und Computer angeben (z.B. A106-15)");
         Scanner scanner = new Scanner(System.in);
         String input = scanner.next();
         char building = input.charAt(0);
